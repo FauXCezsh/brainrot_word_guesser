@@ -1,0 +1,23 @@
+import random 
+
+brainrot_word_bank = [
+     "racist",
+    'skibidi',
+    'skibidi toilet',
+    'ohio',
+    'rizz',
+    'sigma',
+    'mewing',
+    'mogger'
+]
+
+real_word = random.choice(brainrot_word_bank)
+
+guessword = str(input('GUESS THE BRAINROT WORD\n'))
+
+#print(guessword)
+
+if guessword == real_word:
+    print('CORRECT! THE WORD IS:', real_word)
+else:
+    print('INCORRECT! THE WORD WAS:', real_word)
